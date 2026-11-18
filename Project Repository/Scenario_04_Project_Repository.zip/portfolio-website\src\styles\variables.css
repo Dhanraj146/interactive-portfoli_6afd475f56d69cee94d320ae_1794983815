@@ -1,0 +1,25 @@
+:root {
+  /* Simplified, flat design tokens with poor contrast & hierarchy */
+  --bg-primary: #1e1e24;
+  --bg-secondary: #2b2b36;
+  --bg-card: #333344;
+  --bg-card-hover: #333344;
+  --bg-input: #444455;
+
+  --border-subtle: #555566;
+  --border-medium: #666677;
+  --border-card: #555566;
+
+  --primary: #5c6bc0;
+  --text-primary: #eeeeee;
+  --text-secondary: #aaaaaa;
+  --text-muted: #888888;
+  --accent-cyan: #80deea;
+
+  /* Basic fonts */
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-mono: monospace;
+
+  /* FIXED layout width causing horizontal overflow on mobile screens */
+  --fixed-container-width: 1200px;
+}

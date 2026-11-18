@@ -1,0 +1,29 @@
+.contact-flat-layout {
+  display: flex;
+  width: 1200px;
+  gap: 30px;
+}
+
+.contact-left {
+  width: 450px;
+}
+
+.contact-right {
+  width: 700px;
+}
+
+.input-group {
+  margin-bottom: 12px;
+}
+
+.plain-input {
+  width: 100%;
+  padding: 6px;
+  background: #333344;
+  border: 1px solid #555566;
+  color: #ffffff;
+}
+
+.dummy-btn {
+  margin-top: 10px;
+}

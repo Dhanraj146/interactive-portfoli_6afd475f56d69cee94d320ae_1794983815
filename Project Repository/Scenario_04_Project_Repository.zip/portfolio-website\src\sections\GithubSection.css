@@ -1,0 +1,73 @@
+.github-section {
+  background: #1e1e24;
+}
+
+.github-static-card {
+  width: 1200px;
+  background: #252530;
+  border: 1px solid #444455;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-row {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.mock-avatar {
+  width: 60px;
+  height: 60px;
+  background: #555566;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.profile-bio {
+  font-size: 12px;
+  color: #aaaaaa;
+  margin: 4px 0;
+}
+
+.profile-stats {
+  font-size: 12px;
+  color: #88ccff;
+}
+
+.repos-static-list {
+  display: flex;
+  width: 1200px;
+  gap: 15px;
+}
+
+.repo-flat-card {
+  width: 380px;
+  background: #252530;
+  border: 1px solid #444455;
+  padding: 15px;
+}
+
+.repo-name {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #88ccff;
+}
+
+.repo-desc {
+  font-size: 12px;
+  color: #cccccc;
+  margin-bottom: 10px;
+}
+
+.repo-meta {
+  font-size: 11px;
+  color: #888888;
+}

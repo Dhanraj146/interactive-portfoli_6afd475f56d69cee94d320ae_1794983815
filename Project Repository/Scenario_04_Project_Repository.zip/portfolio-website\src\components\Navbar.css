@@ -1,0 +1,39 @@
+.navbar-header {
+  width: 100%;
+  min-width: 1200px;
+  background: #111118;
+  border-bottom: 1px solid #444455;
+  padding: 12px 0;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-list {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 5px 8px;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.nav-github-btn {
+  padding: 5px 12px;
+}

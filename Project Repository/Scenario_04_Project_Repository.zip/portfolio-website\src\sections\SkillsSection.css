@@ -1,0 +1,33 @@
+.skills-fixed-grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  gap: 15px;
+}
+
+.skill-flat-card {
+  width: 375px;
+  background: #252530;
+  border: 1px solid #444455;
+  padding: 15px;
+}
+
+.skill-cat-name {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #88ccff;
+}
+
+.skill-items-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-plain-tag {
+  background: #333344;
+  padding: 3px 6px;
+  font-size: 11px;
+  border: 1px solid #555566;
+}

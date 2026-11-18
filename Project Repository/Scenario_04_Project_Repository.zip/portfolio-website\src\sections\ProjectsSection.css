@@ -1,0 +1,41 @@
+.projects-fixed-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  gap: 20px;
+}
+
+.project-flat-card {
+  width: 580px;
+  background: #252530;
+  border: 1px solid #444455;
+  padding: 16px;
+}
+
+.project-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.project-body {
+  font-size: 13px;
+  color: #cccccc;
+  margin-bottom: 12px;
+}
+
+.project-tags {
+  font-size: 11px;
+  color: #aaaaaa;
+  margin-bottom: 10px;
+}
+
+.project-links {
+  font-size: 12px;
+}
+
+.plain-link {
+  color: #88ccff;
+  text-decoration: underline;
+}

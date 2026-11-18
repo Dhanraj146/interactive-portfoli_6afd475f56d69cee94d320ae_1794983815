@@ -1,0 +1,65 @@
+@import './variables.css';
+
+/* Generic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.4;
+  /* Fixed width on body/root causing horizontal scrolling on screens < 1200px */
+  min-width: 1200px;
+}
+
+/* Fixed container with NO media queries */
+.container {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 25px;
+}
+
+.section {
+  padding: 45px 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.section-header {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.section-description {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: var(--primary);
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #778899;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  padding: 18px;
+  margin-bottom: 15px;
+}
